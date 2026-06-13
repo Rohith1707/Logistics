@@ -2,52 +2,113 @@
 
 ## Overview
 
-This project is an enterprise-style Power BI solution developed to analyze transportation operations, fleet utilization, customer profitability, driver productivity, and safety performance.
+This project is an enterprise-style Power BI analytics solution designed to provide end-to-end visibility into transportation operations, customer profitability, fleet utilization, driver productivity, and safety performance.
 
-## Key Features
+The dashboard enables stakeholders to monitor operational KPIs, identify performance trends, investigate cost drivers, and perform detailed drill-through analysis at customer, truck, and driver levels.
 
-* Star Schema Data Model
-* Power Query Data Transformation
-* 50+ DAX Measures
-* KPI Scorecards
-* Drill-Through Navigation
-* Dynamic Titles
-* Conditional Formatting
-* Geospatial Analysis
-* Interactive Filtering
+---
+
+## Business Objectives
+
+* Monitor revenue and profitability trends
+* Analyze customer value and revenue concentration
+* Optimize fleet utilization and maintenance performance
+* Evaluate driver productivity and efficiency
+* Track safety incidents and risk exposure
+
+---
 
 ## Dashboard Pages
 
-### Executive Overview
+### 1. Landing Page
 
-Enterprise KPI monitoring and performance tracking.
+Central navigation hub for the reporting solution.
 
-### Financial & Customer Analytics
+### 2. Executive Overview
 
-Customer value analysis, Pareto analysis, route profitability, and freight performance.
+Enterprise KPI monitoring including Revenue, Profit, Loads, Miles, and On-Time Performance.
 
-### Fleet & Asset Performance Analytics
+### 3. Financial & Customer Analytics
 
-Truck utilization, maintenance analysis, and fuel cost monitoring.
+Customer value analysis, Pareto analysis, route profitability, and freight performance analysis.
 
-### Driver Performance Analytics
+### 4. Fleet & Asset Performance Analytics
 
-Driver productivity, performance scorecards, and workforce analysis.
+Truck utilization monitoring, fuel cost analysis, maintenance cost tracking, and maintenance event analysis.
 
-### Safety Performance Analytics
+### 5. Driver Performance Analytics
 
-Incident tracking, hotspot analysis, damage cost monitoring, and risk assessment.
+Driver productivity analysis, performance scorecards, and workforce distribution.
 
-## Technical Skills Demonstrated
+### 6. Safety Performance Analytics
+
+Incident monitoring, hotspot analysis, claims cost tracking, and risk assessment.
+
+---
+
+## Technical Highlights
 
 * Power BI Desktop
-* DAX
-* Power Query
-* Data Modeling
-* Drill-Through Reporting
-* KPI Design
-* Data Visualization
+* Star Schema Data Modeling
+* Power Query Data Transformation
+* 50+ DAX Measures
+* Conditional Formatting
+* Drill-Through Navigation
+* Dynamic Titles
+* KPI Scorecards
+* Geospatial Analytics
+* Interactive Filtering
 
-## Business Impact
+---
 
-The solution enables stakeholders to monitor operational efficiency, identify cost drivers, optimize fleet performance, improve driver productivity, and reduce safety risks through interactive reporting and self-service analytics.
+## Project Scale
+
+* Revenue Analyzed: $299M
+* Loads: 85K+
+* Fleet Assets: 120 Trucks
+* Drivers: 124
+* Safety Incidents: 170
+
+---
+
+## Advanced Features
+
+* Customer Drill-Through Page
+* Truck Drill-Through Page
+* Driver Drill-Through Page
+* About Dashboard Page
+* Landing Page Navigation
+
+---
+
+## Data Model
+
+The solution uses a star schema architecture consisting of:
+
+### Dimension Tables
+
+* DimDate
+* DimCustomer
+* DimDriver
+* DimTruck
+* DimRoute
+* DimTrailer
+
+### Fact Tables
+
+* FactLoads
+* FactTrips
+* FactFuelPurchases
+* FactMaintenance
+* FactSafetyIncidents
+
+### Aggregate Tables
+
+* driver_monthly_metrics
+* truck_utilization_metrics
+
+---
+
+## Author
+
+Rohith T
